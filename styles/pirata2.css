@@ -1,0 +1,28 @@
+/* este va a ser el estilo de pirata con imagen grande de fotndo*/
+@font-face {
+    font-family: poemapirata;
+    src: url("../fonts/Ruthie-Regular.ttf");
+}
+body{
+    background-color:#d1aa7b;
+    
+}
+#container{
+    box-shadow: 40px 40px 40px rgb(0, 0n, 0);
+    background-image: url("../images/pirate-background2.jpg");
+    background-color:#C9A06E;
+    width: 80%;
+    height: 180vh;/*puede provocar que el texto del poema se salga del container*/
+    margin: auto;
+    font-family: poemapirata;
+    font-size: 2em;
+    background-size: cover; /*cover estira o encoge la imagen para que encaje perfectamente 1 sola vez*/
+    padding:20px;
+}
+#poema {
+    background-position: 66%; /*decido donde está el centro de interés de mi imagen de fondo, y ahí fijo el punto para posteriores recortes, por defecto es left, pero yo he puesto el 2º terio (66%)*/
+    margin:20px;
+    padding: 20px;
+    background-color: #fdedd481;
+    width: 300px; /*en este caso MUY PARTICULAR me conviene fijar el ancho en pixeles porque protege el ancho de lineas del poema y no rompe los versos. Además 300 px caben en el ancho de cualquier móvil.*/
+}

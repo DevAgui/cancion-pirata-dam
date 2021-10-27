@@ -1,0 +1,25 @@
+/*Hoja de estilo de la web de la canción del pirata*/
+    
+    @font-face {
+        font-family: poemapirata;
+        src: url("../fonts/Ruthie-Regular.ttf");
+    }
+
+    body{
+        background-color: black;
+        margin: 0%;
+        padding: 0%;
+        background-image: url(../images/pirate-pattern-background.jpg);
+        background-size: 800px;/*puedo redimensionar el tamaño del patrón*/
+       /* background-repeat:puedo controlar la repetición, tanto en general, como a lo ancho, como a lo alto.*/ 
+}
+    #container{
+        font-size:2em;
+        font-family: poemapirata;
+        padding:20px;
+        background-color: rgba(255, 244, 214, 0.89);
+        width: 80%;
+        margin:auto;
+        text-align: center;
+        
+}
